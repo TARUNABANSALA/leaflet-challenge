@@ -14,7 +14,7 @@ let link = "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.g
 
 // Function to determine the marker size based on earthquake magnitude
 function getMarkerSize(magnitude) {
-  return magnitude * 4;
+  return magnitude * 2;
 }
 
 // Function to determine the marker color based on earthquake depth
